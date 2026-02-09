@@ -1,4 +1,4 @@
-<img width="3953" height="2360" alt="引言图" src="https://github.com/user-attachments/assets/ff2e91cd-a8e2-49c8-9ef2-154b7d3e1454" /><img width="3953" height="2360" alt="引言图" src="https://github.com/user-attachments/assets/ff2e91cd-a8e2-49c8-9ef2-154b7d3e1454" /># Finlaw-Bench（All open source after being hired）
+
 # FinLaw: A Benchmark for Evaluating Retrieval-Augmented Reasoning in Financial Regulation
 
 FinLaw is a large-scale benchmark designed to systematically evaluate **retrieval-augmented reasoning (RAG)** of large language models (LLMs) in **real-world financial regulatory scenarios**.  
