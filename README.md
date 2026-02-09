@@ -260,3 +260,38 @@ Each model reports the main experiment (with vector database) and the control ex
 │   ├── experiment_results.jsonl
 │   └── evaluation_metrics.csv
 ├── README.md
+
+## Quick Start
+
+This section provides a minimal example to run inference and evaluation on the FinLaw benchmark.
+The code below is **illustrative only** and omits engineering details for clarity.
+
+---
+
+### Requirements
+
+```bash
+pip install pandas chromadb openai dashscope tqdm
+
+### Run Inference (Retrieval-Augmented)
+
+from Main_experiment import ExperimentRunner
+runner = ExperimentRunner()
+runner.run_batch()
+
+### Run Inference (Without Retrieval)
+
+runner = ExperimentRunner()
+runner.use_retrieval = False
+runner.run_batch()
+
+### Evaluate Predictions
+from evaluat import evaluate
+import pandas as pd
+
+pred_df = pd.read_csv("result_qwen3-max.csv")
+true_df = pd.read_csv("data_finlaw.csv")
+
+details_df, metrics_df = evaluate(pred_df, true_df)
+
+print(metrics_df)
