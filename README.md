@@ -67,6 +67,9 @@ All data are publicly available and processed following a strict pipeline to ens
 
 ### Data Processing & Annotation
 
+<img width="3277" height="2266" alt="数据处理流程图" src="https://github.com/user-attachments/assets/baa2338b-f601-4b27-848d-4d7896a6349e" />
+<img width="3277" height="2266" alt="数据处理流程图" src="https://github.com/user-attachments/assets/baa2338b-f601-4b27-848d-4d7896a6349e" />
+
 #### Penalty Data
 From raw disclosure tables, we extract and enrich:
 
@@ -90,6 +93,9 @@ From raw disclosure tables, we extract and enrich:
 ---
 
 ## 🔄 Inference Pipeline
+
+<img width="4276" height="2334" alt="评测流程 " src="https://github.com/user-attachments/assets/c4983383-6e94-4389-869c-6c12923f710a" />
+<img width="4276" height="2334" alt="评测流程 " src="https://github.com/user-attachments/assets/c4983383-6e94-4389-869c-6c12923f710a" />
 
 1. **Input Construction**
    - Violation facts
@@ -120,6 +126,9 @@ From raw disclosure tables, we extract and enrich:
 ---
 
 ## 📐 Evaluation Protocol
+
+<img width="2100" height="1500" alt="评估指标汇总圆盘图" src="https://github.com/user-attachments/assets/4a94a4e1-b92f-491b-b6ae-e889db372e2c" />
+<img width="2100" height="1500" alt="评估指标汇总圆盘图" src="https://github.com/user-attachments/assets/4a94a4e1-b92f-491b-b6ae-e889db372e2c" />
 
 FinLaw adopts a **hierarchical and fine-grained evaluation framework**.
 
